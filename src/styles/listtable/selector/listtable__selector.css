@@ -1,0 +1,12 @@
+.listtable__selector {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 19px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    color: #787878;
+    font-size: 11px;
+}

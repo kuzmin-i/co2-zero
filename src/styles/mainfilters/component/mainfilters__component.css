@@ -1,0 +1,45 @@
+.mainfilters__component {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 48px;
+    margin-right: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.mainfilters__component.datayear {
+    width: 60px;
+}
+
+.mainfilters__component.facility {
+    width: 14vw;
+    min-width: 200px;
+}
+
+.mainfilters__component.search {
+    width: 20vw;
+    min-width: 310px;
+}
+
+.mainfilters__component.small {
+    width: 150px;
+}
+
+.mainfilters__component.dataview {
+    width: 252px;
+    margin-right: 0px;
+}

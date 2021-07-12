@@ -1,0 +1,32 @@
+.mainfilters__screenbutton {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+    height: 30px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    align-self: center;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    border: 1px solid #ccc;
+}
+
+.mainfilters__screenbutton.selected {
+    background-color: #E7E7E7;
+}
+
+.mainfilters__screenbutton:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.maintable__name {
+    padding-right: 5px;
+    padding-left: 5px;
+    line-height: 100%;
+    font-weight: 700;
+}
+
+.maintable__name.first {
+    font-size: 18px;
+}

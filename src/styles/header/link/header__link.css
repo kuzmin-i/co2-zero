@@ -1,0 +1,10 @@
+.header__link {
+    padding-left: 55px;
+    font-size: 17px;
+    line-height: 100%;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.charttable__framebleft {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 75%;
+}

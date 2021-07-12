@@ -1,0 +1,28 @@
+@import './arricon/listtable__arricon.css';
+@import './cols/listtable__cols.css';
+@import './firstcol/listtable__firstcol.css';
+@import './firsttitle/listtable__firsttitle.css';
+@import './frame/listtable__frame.css';
+@import './framebox/listtable__framebox.css';
+@import './framerow/listtable__framerow.css';
+@import './frametop/listtable__frametop.css';
+@import './item/listtable__item.css';
+@import './rownumber/listtable__rownumber.css';
+@import './rowtitle/listtable__rowtitle.css';
+@import './selbtn/listtable__selbtn.css';
+@import './selector/listtable__selector.css';
+@import './selectors/listtable__selectors.css';
+@import './tabtitle/listtable__tabtitle.css';
+@import './title/listtable__title.css';
+@import './top/listtable__top.css';
+@import './vhr/listtable__vhr.css';
+@import './vhra/listtable__vhra.css';
+@import './viewby/listtable__viewby.css';
+
+.listtable {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #000;
+    font-size: 12px;
+    line-height: 100%;
+}

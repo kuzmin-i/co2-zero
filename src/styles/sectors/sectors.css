@@ -1,0 +1,16 @@
+@import './top/sectors__top.css';
+@import './buttons/sectors__buttons.css';
+@import './columns/sectors__columns.css';
+@import './column/sectors__column.css';
+@import './block/sectors__block.css';
+@import './mainlevel/sectors__mainlevel.css';
+@import './titles/sectors__titles.css';
+@import './subitem/sectors__subitem.css';
+
+.sectors {
+    width: 1000px;
+    min-height: 1200px !important;
+    padding: 1px;
+    font-size: 11px;
+    line-height: 130%;
+}

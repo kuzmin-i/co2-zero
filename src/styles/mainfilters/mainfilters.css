@@ -1,0 +1,53 @@
+@import './applybutton/mainfilters__applybutton.css';
+@import './clearbutton/mainfilters__clearbutton.css';
+@import './component/mainfilters__component.css';
+@import './floor/mainfilters__floor.css';
+@import './input/mainfilters__input.css';
+@import './left/mainfilters__left.css';
+@import './leftoverflow/mainfilters__leftoverflow.css';
+@import './link/mainfilters__link.css';
+@import './right/mainfilters__right.css';
+@import './screenbutton/mainfilters__screenbutton.css';
+@import './screenicon/mainfilters__screenicon.css';
+@import './screenselector/mainfilter__screenselector.css';
+@import './title/mainfilters__title.css';
+@import './titleblock/mainfilters__titleblock.css';
+
+.mainfilters {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 5px;
+    padding: 15px 15px 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border: 1px solid #000;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+
+@media screen and (max-width: 1336px) {
+    .mainfilters {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: end;
+        -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+}

@@ -1,0 +1,9 @@
+.mainfilters__link.hidden {
+    display: none;
+    overflow: visible;
+}
+
+.mainfilters__link {
+    color: #a8a8a8;
+    font-size: 9px;
+}

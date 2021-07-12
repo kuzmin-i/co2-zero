@@ -1,0 +1,46 @@
+
+@import './az/charttable__az.css';
+@import './azicon/charttable__azicon.css';
+@import './azt/charttable__azt.css';
+@import './btn/charttable__btn.css';
+@import './btnright/charttable__btnright.css';
+@import './chart/charttable__chart.css';
+@import './firstcol/charttable__firstcol.css';
+@import './frame/charttable__frame.css';
+@import './framebleft/charttable__framebleft.css';
+@import './framebottom/charttable__framebottom.css';
+@import './framerow/charttable__framerow.css';
+@import './frametop/charttable__frametop.css';
+@import './itemtotal/charttable__itemtotal.css';
+@import './larrleft/charttable__larrleft.css';
+@import './larrows/charttable__larrows.css';
+@import './lastcol/charttable__lastcol.css';
+@import './left/charttable__left.css';
+@import './right/charttable__right.css';
+@import './righttitle/charttable__righttitle.css';
+@import './righttop/charttable__righttop.css';
+@import './rowcomment/charttable__rowcomment.css';
+@import './rowcomponent/charttable__rowcomponent.css';
+@import './rowtitle/charttable__rowtitle.css';
+@import './shown/charttable__shown.css';
+@import './topcomment/charttable__topcomment.css';
+@import './topcomponent/charttable__topcomponent.css';
+@import './topname/charttable__topname.css';
+@import './totnumber/charttable__totnumber.css';
+@import './framestrict/charttable__framestrict.css';
+
+.charttable {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border: 1px solid #000;
+    text-align: left;
+}
